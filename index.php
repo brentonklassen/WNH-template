@@ -216,7 +216,16 @@ $menu = $app->getMenu();
 			</div>
 		</div>
 	</div>
-</div> <!-- end #body-wrapper -->
+</div> <!-- end #media-wrapper -->
+<div id="footer-wrapper">
+	<div class="container">
+		<div class='row'>
+			<div class='span4'><jdoc:include type="modules" name="footer-left" style="xhtml" /></div>
+			<div class='span4'><jdoc:include type="modules" name="footer-center" style="xhtml" /></div>
+			<div class='span4'><jdoc:include type="modules" name="footer-right" style="xhtml" /></div>
+		</div>
+	</div>
+</div>
 
 <!-- JavaScript placed at the end of the document so the pages load faster -->
 <script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/businesstemplate/js/jquery.min.js"></script>
