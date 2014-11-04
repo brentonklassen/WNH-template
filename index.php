@@ -226,10 +226,17 @@ $menu = $app->getMenu();
 		</div>
 	</div>
 </div>
+<div id='copyright-wrapper'>
+	<div class='container'>
+		<div class='row'>
+			<div class='span6' style='text-align: right;'>&copy; <?php echo date('Y'); ?> Atchison Enterprises</div>
+			<div class='span6'>Design by Brenton Klassen</div>
+		</div>
+	</div>
+</div>
 
 <!-- JavaScript placed at the end of the document so the pages load faster -->
-<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/businesstemplate/js/jquery.min.js"></script>
-<script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/businesstemplate/js/bootstrap.min.js"></script>
+<?php JHtml::_('jquery.framework'); JHtml::_('bootstrap.framework'); ?>
 <script type="text/javascript" src="<?php echo $this->baseurl ?>/templates/businesstemplate/js/scripts.js"></script>
 
 </body>

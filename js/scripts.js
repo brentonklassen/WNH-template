@@ -12,4 +12,4 @@ jQuery('ul.nav > li.parent > a').addClass('dropdown-toggle').attr('data-toggle',
 jQuery('ul.nav-child').addClass('dropdown-menu');
 
 // fix BreezingForms buttons
-jQuery('button.bfNextButton, button.bfPrevButton').addClass('btn');
+jQuery('button.bfNextButton, button.bfPrevButton, button.bfSubmitButton').addClass('btn');
