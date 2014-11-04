@@ -187,6 +187,11 @@ $menu = $app->getMenu();
 			<jdoc:include type="component" />
 		</div>
 	</div>
+	<div class='row'>
+		<div class='span12'>
+			<jdoc:include type="modules" name="breadcrumb" style="none" />
+		</div>
+	</div>
 </div>
 
 

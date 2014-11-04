@@ -21,6 +21,7 @@
                 <position>search</position>
                 <position>navbar</position>
                 <position>banner</position>
+                <position>breadcrumb</position>
                 <position>footer-left</position>
                 <position>footer-center</position>
                 <position>footer-right</position>
